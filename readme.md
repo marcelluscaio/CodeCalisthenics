@@ -1,6 +1,6 @@
 # Code Calisthenics
 
-Repository to organize and  my code exercise routine.
+Repository to organize and store my code exercise routine.
 
 Here are challenges from Clash of code and Haker Rank
 
