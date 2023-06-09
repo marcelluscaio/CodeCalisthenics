@@ -1,3 +1,11 @@
+/*Diferença da soma das diagonais da matriz quadrada
+
+Hacker rank
+
+Tem algo errado?
+
+*/
+
 const arr = [6, [6,6,6,6,6,6],  [1,7,3, 1,80,3], [2,3,4, 2,3,4],[4,5,6, 4,5,6], [2,3,4, 2,3,4],[8,8,8,8,8,8]];
 
 function diagonalDifference(arr) {
