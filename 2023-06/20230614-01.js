@@ -14,7 +14,7 @@ let secret = 'yeH ereht !dneirf woH era uoy ?yadot';
 
 */
 
-const message = 'Hey there friend! How are you today?';
+/* const message = 'Hey there friend! How are you today?';
 const arrayMessage = message.split(' ');
 
 arrayMessage.forEach((word, position) => {
@@ -26,4 +26,15 @@ arrayMessage.forEach((word, position) => {
 }
 )
 
-console.log(arrayMessage);
+console.log(arrayMessage); */
+
+
+/*Another approach*/
+
+const message = 'Hey there friend! How are you today?';
+const arrayMessage = message.split(' ');
+const encoded = arrayMessage.map( word => {
+   return word.split('').reverse().join('')
+})
+
+console.log(encoded);
